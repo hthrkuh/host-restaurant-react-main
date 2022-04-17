@@ -1,0 +1,28 @@
+.continer {
+    .guest_room_title {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h1 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: white;
+            text-shadow: 3px 3px 14px rgb(80, 80, 80);
+            font-size: 30px;
+        }
+
+        .glow {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+        }
+    }
+
+    .guest_room {
+        background-color: rgba(241, 241, 241, 0.904);
+        padding: 5px;
+        border-radius: 20px;
+        position: relative;
+        width: 1000px;
+        height: 550px;
+    }
+}

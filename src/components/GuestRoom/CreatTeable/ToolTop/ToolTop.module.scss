@@ -1,0 +1,32 @@
+.continer {
+   background-color: white;
+   padding: 7px;
+   border-radius: 10px;
+   position: absolute;
+   min-width: fit-content;
+   z-index: 100;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+   top: -50px; 
+   text-align: left;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   .text_continer {
+       font-size: 12px;
+       font-weight: bold;
+       position: relative;
+       .arrow {
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background-color: white;
+         transform: rotate(45deg);
+         bottom: -12px;
+         margin-left: auto;
+         margin-right: auto;
+         left: 0;
+         right: 0;
+       }
+   }
+}

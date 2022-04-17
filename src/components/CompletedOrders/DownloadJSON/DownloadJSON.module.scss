@@ -1,0 +1,15 @@
+.continer {
+    position: absolute;
+    cursor: pointer;
+    transition: 0.7s;
+    top: -40px;
+    right: -20px;
+
+    img {
+        width: 60px;
+    }
+}
+
+.continer:hover {
+    transform: scale(1.1);
+}
