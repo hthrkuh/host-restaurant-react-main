@@ -36,7 +36,7 @@ const DownloadJSON = props => {
     return (
         <div className={styles.continer}>
             <div onClick={() => download()} className={styles.button}>
-                <img src={iconsDownload}></img>
+                <img alt='' src={iconsDownload}></img>
             </div>
         </div>
     );
